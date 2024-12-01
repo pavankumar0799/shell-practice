@@ -17,6 +17,7 @@ then
   if[ $? -ne 0 ]
   then
      echo "git not installed"
+     exit 1
   else
      echo "git installed"
   fi

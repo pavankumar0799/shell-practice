@@ -1,6 +1,6 @@
 #!/bin/bash
 
-userid=(id -u)
+userid=$(id -u)
 
 if [ $userid -ne 0 ]
 then
@@ -15,7 +15,7 @@ then
   echo "git not installed.. going to install"
   dnf install git -y
   if[ $? -ne 0 ]
-  then 
+  then
     echo "git not installed"
   else
     echo "git installed"

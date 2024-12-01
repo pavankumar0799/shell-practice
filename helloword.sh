@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo " hello i am pavankumar"
+echo " hello my name is pavankumar"

@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo -su
+sudo su
 
 dnf install nginx -y

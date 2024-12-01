@@ -34,9 +34,9 @@ then
   dnf install mysql -y
   if [ $? -ne 0 ]
   then
-    echo "install mysql"
-  else
     echo "not installed"
+  else
+    echo "installed"
   fi
 else
   echo "mysql installed nothing do"

@@ -30,7 +30,7 @@ then
   dnf install git -y
   validate $?
 else
-  echo -e "git installed nothind do$R"
+  echo -e "git installed nothind do..$R"
 fi    
   
 check_root
@@ -43,5 +43,5 @@ then
   dnf install mysql -y
   validate $?
 else
-  echo -e "mysql installed nothing do$G"
+  echo -e "mysql installed nothing do..$G"
 fi

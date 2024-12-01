@@ -16,9 +16,9 @@ then
   dnf install git -y
   if[ $? -ne 0 ]
   then
-    echo "git not installed"
+     echo "git not installed"
   else
-    echo "git installed"
+     echo "git installed"
   fi
 else
   echo "git installed nothind do"

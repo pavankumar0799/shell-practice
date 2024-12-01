@@ -25,3 +25,19 @@ else
   echo "git installed nothind do"
 fi    
   
+
+dnf list installed mysql
+
+if [ $? -ne 0 ]
+then
+  echo "going to install"
+  dnf install mysql -y
+  if [ $? -ne 0 ]
+  then
+    echo "install mysql"
+  else
+    echo "not installed"
+  fi
+else
+  echo "mysql installed nothing do"
+fi

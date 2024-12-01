@@ -8,4 +8,3 @@ echo "Second fruit is: ${FRUITS[1]}"
 echo "Third fruit is: ${FRUITS[2]}"
 
 echo "First fruit is: ${FRUITS[@]}"
-echo "how many variable total: ${fruits[#]}"

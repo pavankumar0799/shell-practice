@@ -6,4 +6,3 @@ do
 
 done
 
-echi "1"

@@ -6,7 +6,7 @@ logs_folder="/var/log/shell_script"
 
 script_name=$(echo $0 | cut -d "." -f1)
 timestamp =$(date +%Y-%m-%d-%H-%M-%S)
-logfile="$logs_folder/$script_name-$timestamp.log"
+log_file="$logs_folder/$script_name-$timestamp.log"
 mkdir -p $logs_folder
 
 userid=$(id -u)
